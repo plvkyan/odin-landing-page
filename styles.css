@@ -3,11 +3,11 @@ body {
     margin: 0;
 }
 
-.nav-bar, .hero, .cta, .footer {
+.nav-bar, .hero, .cta, footer {
     padding: 0px 17%;
 }
 
-.nav-bar, .hero, .footer {
+.nav-bar, .hero, footer {
     background-color: #1F2937;
 }
 
@@ -161,4 +161,12 @@ ul {
     font-weight: bold;
     height: fit-content;
     padding: 8px 40px;
+}
+
+footer {
+    color: #E5E7EB;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
 }
