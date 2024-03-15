@@ -72,7 +72,7 @@ ul {
 
 .hero-img {
     height: auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .info {
@@ -80,10 +80,10 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 400px;
+    min-height: 500px;
 }
 
-.info-header, .illust-subtext {
+.info-header, .illust-subtext, .quote-text, .quote-author {
     color: #1F2937;
 }
 
@@ -108,3 +108,22 @@ ul {
     width: 150px;
 }
 
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px;
+    padding: 0px 25%;
+}
+
+.quote-text em {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
